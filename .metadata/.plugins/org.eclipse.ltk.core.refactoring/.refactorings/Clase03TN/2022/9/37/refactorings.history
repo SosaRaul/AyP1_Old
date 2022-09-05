@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Clase03TN/src/Clase03TN.cpp&apos; to &apos;EjercicioSearchAndReplaceCharacters.cpp&apos;" description="Rename resource &apos;Clase03TN.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Clase03TN.cpp" name="EjercicioSearchAndReplaceCharacters.cpp" stamp="1662341911524" updateReferences="true"/>
+</session>
