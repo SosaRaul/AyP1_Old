@@ -1,4 +1,4 @@
-19:07:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+19:43:38 **** Incremental Build of configuration Debug for project Clase03TN ****
 make all 
 Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
 Invoking: GCC C++ Compiler
@@ -15,5 +15,5 @@ g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o
 Finished building target: Clase03TN
  
 
-19:07:46 Build Finished. 0 errors, 1 warnings. (took 364ms)
+19:43:38 Build Finished. 0 errors, 1 warnings. (took 313ms)
 

@@ -754,3 +754,139 @@ Invoking: GCC C++ Linker
 g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
 Finished building target: Clase03TN
  
+19:42:01 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: At global scope:
+../src/EjercicioSearchAndReplaceCharacters.cpp:42:5: error: ambiguating new declaration of ‘int BuscarCaracter(char*, char)’
+   42 | int BuscarCaracter(char texto[], char caracter){
+      |     ^~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:24:6: note: old declaration ‘bool BuscarCaracter(char*, char)’
+   24 | bool BuscarCaracter(char texto[], char caracter);
+      |      ^~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:46:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   46 |         for(pos=0;pos<strlen(texto);pos++){
+      |                   ~~~^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:42:12 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: At global scope:
+../src/EjercicioSearchAndReplaceCharacters.cpp:42:5: error: ambiguating new declaration of ‘int BuscarCaracter(char*, char)’
+   42 | int BuscarCaracter(char texto[], char caracter){
+      |     ^~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:24:6: note: old declaration ‘bool BuscarCaracter(char*, char)’
+   24 | bool BuscarCaracter(char texto[], char caracter);
+      |      ^~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:46:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   46 |         for(pos=0;pos<strlen(texto);pos++){
+      |                   ~~~^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:42:25 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:46:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   46 |         for(pos=0;pos<strlen(texto);pos++){
+      |                   ~~~^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:42:59 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:43:11 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:43:24 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:43:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:22: warning: character constant too long for its type
+   29 |         char letra = 'qipiwoperw';
+      |                      ^~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:22: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘1885696631’ to ‘'w'’ [-Woverflow]
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:43:38 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
