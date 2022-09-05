@@ -26,7 +26,7 @@ bool BuscarCaracter(char texto[], char caracter);
 int main() {
 
 	char nombre[] =  {'s','s','a'};
-	char letra = 's';
+	char letra = 'w';
 	cout << BuscarCaracter(nombre,letra);
 
 	return 0;
@@ -42,19 +42,10 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 bool BuscarCaracter(char texto[], char caracter){
 
 	unsigned int pos = 0;
-	bool encontrado;
-
+	cout << strlen(texto);
 	while(pos < strlen(texto) && texto[pos] != caracter){
 		pos++;
 	}
-	if(pos == strlen(texto)-1){
-		encontrado = false;
-	}
-	else{
-		encontrado = true;
-	}
-
-	return encontrado;
-
+	pos == strlen(texto) ? return false : return true
 }
 

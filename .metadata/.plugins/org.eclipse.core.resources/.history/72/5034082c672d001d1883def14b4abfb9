@@ -51,7 +51,7 @@ bool BuscarCaracter(char texto[], char caracter){
 		encontrado = false;
 	}
 	else{
-		encontrado = true;
+		encontrado = false;
 	}
 
 	return encontrado;

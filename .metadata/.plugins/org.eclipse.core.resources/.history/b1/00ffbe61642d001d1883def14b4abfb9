@@ -25,8 +25,8 @@ bool BuscarCaracter(char texto[], char caracter);
 
 int main() {
 
-	char nombre[] =  {'s','s','a'};
-	char letra = 's';
+	string nombre =  "Perpendicular";
+	char letra = 'd';
 	cout << BuscarCaracter(nombre,letra);
 
 	return 0;
@@ -41,20 +41,16 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 // Implementación de busqueda secuencial en cadena de caracteres.
 bool BuscarCaracter(char texto[], char caracter){
 
-	unsigned int pos = 0;
-	bool encontrado;
+	unsigned int pos;
 
-	while(pos < strlen(texto) && texto[pos] != caracter){
-		pos++;
+	for(pos = 0 ; pos < strlen(texto); pos++){
+		if(texto[pos]==caracter){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
-	if(pos == strlen(texto)-1){
-		encontrado = false;
-	}
-	else{
-		encontrado = true;
-	}
-
-	return encontrado;
 
 }
 

@@ -10,3 +10,747 @@ Invoking: GCC C++ Linker
 g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
 Finished building target: Clase03TN
  
+18:42:08 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:28:9: error: expected primary-expression before ‘return’
+   28 |         return 0;
+      |         ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   36 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:42:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   42 |         for(pos = 0 ; pos < strlen(texto); pos++){
+      |                       ~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:42: error: expected primary-expression before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false
+      |                                          ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:41: error: expected ‘:’ before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false
+      |                                         ^~~~~~~
+      |                                         :
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:42: error: expected primary-expression before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false
+      |                                          ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:46:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   46 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:42:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:28:9: error: expected primary-expression before ‘return’
+   28 |         return 0;
+      |         ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   36 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:42:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   42 |         for(pos = 0 ; pos < strlen(texto); pos++){
+      |                       ~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:42: error: expected primary-expression before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false ;
+      |                                          ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:41: error: expected ‘:’ before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false ;
+      |                                         ^~~~~~~
+      |                                         :
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:42: error: expected primary-expression before ‘return’
+   43 |                 texto[pos] == caracter ? return true : return false ;
+      |                                          ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:46:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   46 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:43:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:28:9: error: expected primary-expression before ‘return’
+   28 |         return 0;
+      |         ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   36 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:44:07 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   36 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+   51 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:45:39 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:09 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:32: error: cannot convert ‘std::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘char*’
+   30 |         cout << BuscarCaracter(nombre,letra);
+      |                                ^~~~~~
+      |                                |
+      |                                std::string {aka std::__cxx11::basic_string<char>}
+../src/EjercicioSearchAndReplaceCharacters.cpp:24:26: note:   initializing argument 1 of ‘bool BuscarCaracter(char*, char)’
+   24 | bool BuscarCaracter(char texto[], char caracter);
+      |                     ~~~~~^~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:47:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:49:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:50:22 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:50:25 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:51:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:51:25 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:51:34 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:51:36 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:03 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:52:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:28:14: warning: unused variable ‘nombre’ [-Wunused-variable]
+   28 |         char nombre[] =  {'s','s','a'};
+      |              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:14: warning: unused variable ‘letra’ [-Wunused-variable]
+   29 |         char letra = 'a';
+      |              ^~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:52:48 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:52 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:58 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:00 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:14 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:18 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:54:07 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:54:16 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+18:54:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:54:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+18:57:38 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:35: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                   ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:34: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                  ^~~~~~~
+      |                                  :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:35: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                   ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:43 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:35: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                   ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:34: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                  ^~~~~~~
+      |                                  :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:35: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) -1 ? return false : return true;
+      |                                   ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:58:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:58:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:59:43 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:00:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:01:33 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:01:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:03:36 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:31: error: expected ‘:’ before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                               ^~~~~~~
+      |                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:32: error: expected primary-expression before ‘return’
+   49 |         pos == strlen(texto) ? return false : return true
+      |                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:03:53 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:35: error: expected ‘:’ before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                   ^ ~~~~~~
+      |                                   :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:54:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   54 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:04:41 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:35: error: expected ‘:’ before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                   ^ ~~~~~~
+      |                                   :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:54:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   54 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:05:17 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:35: error: expected ‘:’ before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                   ^ ~~~~~~
+      |                                   :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:54:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   54 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:09 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool BuscarCaracter(char*, char)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:35: error: expected ‘:’ before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                   ^ ~~~~~~
+      |                                   :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:37: error: expected primary-expression before ‘return’
+   50 |         (pos == strlen(texto)-1) ?  return false : return  true;
+      |                                     ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:54:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   54 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:14 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:06:28 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+19:06:48 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:54 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:56 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:07:44 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+19:07:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | }
+      | ^
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 

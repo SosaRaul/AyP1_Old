@@ -7,7 +7,7 @@
 //============================================================================
 
 #include <iostream>
-#include <cstring>
+#include <cstdio>
 using namespace std;
 
 // Pre : @texto y @subtexto son cad de caracteres.
@@ -21,14 +21,10 @@ void Reemplazar(char texto[], char textoBusqueda[],char textoReemplazo[]);
 
 // Pre -
 // Post : Retorna true si el @caracter está en @texto , de lo contrario false.
-bool BuscarCaracter(char texto[], char caracter);
+void BuscarCaracter(char texto[], char caracter);
 
 int main() {
-
-	char nombre[] =  {'s','s','a'};
-	char letra = 's';
-	cout << BuscarCaracter(nombre,letra);
-
+!
 	return 0;
 }
 
@@ -39,22 +35,13 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 
 }
 // Implementación de busqueda secuencial en cadena de caracteres.
-bool BuscarCaracter(char texto[], char caracter){
+void BuscarCaracter(char texto[], char caracter){
 
-	unsigned int pos = 0;
-	bool encontrado;
+	int pos;
 
-	while(pos < strlen(texto) && texto[pos] != caracter){
-		pos++;
-	}
-	if(pos == strlen(texto)-1){
-		encontrado = false;
-	}
-	else{
-		encontrado = true;
-	}
+	for(post = 0 ; pos < strlen(texto); pos++){
 
-	return encontrado;
+	}
 
 }
 

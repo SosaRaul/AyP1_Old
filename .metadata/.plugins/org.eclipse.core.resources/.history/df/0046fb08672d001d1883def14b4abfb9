@@ -26,7 +26,7 @@ bool BuscarCaracter(char texto[], char caracter);
 int main() {
 
 	char nombre[] =  {'s','s','a'};
-	char letra = 's';
+	char letra = 'w';
 	cout << BuscarCaracter(nombre,letra);
 
 	return 0;
@@ -51,7 +51,7 @@ bool BuscarCaracter(char texto[], char caracter){
 		encontrado = false;
 	}
 	else{
-		encontrado = true;
+		encontrado = false;
 	}
 
 	return encontrado;
