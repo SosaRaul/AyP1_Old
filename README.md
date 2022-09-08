@@ -1,4 +1,4 @@
-###### Como se orginizan las cosas 
+#### Organización de carpetas 
 
-- Clase[n] => Resolución propia de los ejercicios en clase.
-- Clase[n]_CodigoClase => Resolucion del profesor/otros alumnos.
+- Clase[n] &rarr Resolución propia de los ejercicios en clase.
+- Clase[n]_CodigoClase &rarr  Resolucion del profesor/otros alumnos.
