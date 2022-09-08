@@ -893,3 +893,510 @@ Finished building target: Clase03TN
 05:57:41 **** Incremental Build of configuration Debug for project Clase03TN ****
 make all 
 make: Nothing to be done for 'all'.
+21:41:22 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:61: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |                                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:9: error: ‘j’ was not declared in this scope
+   50 |         j == strlen(subTexto) ? return true : return false;
+      |         ^
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:33: error: expected primary-expression before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false;
+      |                                 ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:32: error: expected ‘:’ before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false;
+      |                                ^~~~~~~
+      |                                :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:33: error: expected primary-expression before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false;
+      |                                 ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:52:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   52 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:41:48 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:61: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |                                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:9: error: ‘j’ was not declared in this scope
+   50 |         j == strlen(subTexto) ? return true : return false
+      |         ^
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:33: error: expected primary-expression before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false
+      |                                 ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:32: error: expected ‘:’ before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false
+      |                                ^~~~~~~
+      |                                :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:33: error: expected primary-expression before ‘return’
+   50 |         j == strlen(subTexto) ? return true : return false
+      |                                 ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:52:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   52 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:42:09 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:61: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |                                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   50 |         indiceSubtexto == strlen(subTexto) ? return true : return false
+      |         ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:46: error: expected primary-expression before ‘return’
+   50 |         indiceSubtexto == strlen(subTexto) ? return true : return false
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:45: error: expected ‘:’ before ‘return’
+   50 |         indiceSubtexto == strlen(subTexto) ? return true : return false
+      |                                             ^~~~~~~
+      |                                             :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:46: error: expected primary-expression before ‘return’
+   50 |         indiceSubtexto == strlen(subTexto) ? return true : return false
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:52:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   52 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:42:51 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:43:61: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |         while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
+      |                                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   50 |         (indiceSubtexto == strlen(subTexto)) ? return true : return false
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:48: error: expected primary-expression before ‘return’
+   50 |         (indiceSubtexto == strlen(subTexto)) ? return true : return false
+      |                                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:47: error: expected ‘:’ before ‘return’
+   50 |         (indiceSubtexto == strlen(subTexto)) ? return true : return false
+      |                                               ^~~~~~~
+      |                                               :
+../src/EjercicioSearchAndReplaceCharacters.cpp:50:48: error: expected primary-expression before ‘return’
+   50 |         (indiceSubtexto == strlen(subTexto)) ? return true : return false
+      |                                                ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:52:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   52 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:44:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:45:06 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:46: error: expected primary-expression before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:45: error: expected ‘:’ before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                             ^~~~~~~
+      |                                             :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:46: error: expected primary-expression before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:59: error: expected primary-expression before ‘:’ token
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                                           ^
+../src/EjercicioSearchAndReplaceCharacters.cpp:51:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   51 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:45:22 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:46: error: expected primary-expression before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:45: error: expected ‘:’ before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                             ^~~~~~~
+      |                                             :
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:46: error: expected primary-expression before ‘return’
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                              ^~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:59: error: expected primary-expression before ‘:’ token
+   49 |         indiceSubtexto == strlen(subTexto) ? return true; :return false;
+      |                                                           ^
+../src/EjercicioSearchAndReplaceCharacters.cpp:51:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   51 | }
+      | ^
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:45:37 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:47:32 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:22: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   29 |         char texto = "hola como andas juan";
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:25: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   30 |         char SubTexto = "como";
+      |                         ^~~~~~
+      |                         |
+      |                         const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:40: error: ‘subTexto’ was not declared in this scope; did you mean ‘SubTexto’?
+   31 |         cout << ContieneSubTexto(texto,subTexto)
+      |                                        ^~~~~~~~
+      |                                        SubTexto
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:14: warning: unused variable ‘SubTexto’ [-Wunused-variable]
+   30 |         char SubTexto = "como";
+      |              ^~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:47:37 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:22: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   29 |         char texto = "hola como andas juan";
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:25: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   30 |         char SubTexto = "como";
+      |                         ^~~~~~
+      |                         |
+      |                         const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:40: error: ‘subTexto’ was not declared in this scope; did you mean ‘SubTexto’?
+   31 |         cout << ContieneSubTexto(texto,subTexto)
+      |                                        ^~~~~~~~
+      |                                        SubTexto
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:14: warning: unused variable ‘SubTexto’ [-Wunused-variable]
+   30 |         char SubTexto = "como";
+      |              ^~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:47:42 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:29:22: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   29 |         char texto = "hola como andas juan";
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      |
+      |                      const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:25: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+   30 |         char SubTexto = "como";
+      |                         ^~~~~~
+      |                         |
+      |                         const char*
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:40: error: ‘subTexto’ was not declared in this scope; did you mean ‘SubTexto’?
+   31 |         cout << ContieneSubTexto(texto,subTexto);
+      |                                        ^~~~~~~~
+      |                                        SubTexto
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:14: warning: unused variable ‘SubTexto’ [-Wunused-variable]
+   30 |         char SubTexto = "como";
+      |              ^~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:47:56 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:40: error: ‘subTexto’ was not declared in this scope; did you mean ‘SubTexto’?
+   31 |         cout << ContieneSubTexto(texto,subTexto);
+      |                                        ^~~~~~~~
+      |                                        SubTexto
+../src/EjercicioSearchAndReplaceCharacters.cpp:30:14: warning: unused variable ‘SubTexto’ [-Wunused-variable]
+   30 |         char SubTexto[] = "como";
+      |              ^~~~~~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:48:13 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:48:17 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:28 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:48:40 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:48:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:48:54 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:49:04 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:06 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+21:49:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:50:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:50:15 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:50:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:52:06 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:55:13 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:55:18 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:55:24 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:55:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:56:30 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+21:56:40 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+23:21:40 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+23:21:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
