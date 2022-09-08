@@ -28,9 +28,9 @@ int BuscarTexto(char texto[],char textoBusqueda[]);
 
 int main() {
 
-	char texto[] = "stucabatrk";
-	char subTexto[] = "caa";
-	cout << BuscarTexto(texto,subTexto);
+	char texto[] = " ";
+	char subTexto[] = "";
+	cout << ContieneSubTexto(texto,subTexto);
 
 	return 0;
 }
@@ -42,13 +42,13 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 
 	unsigned int indiceTexto = 0, indiceSubtexto = 0;
 
-	while(indiceTexto < strlen(texto) && indiceSubtexto < strlen(subTexto)){
+	while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
 		if(texto[indiceTexto] == subTexto[indiceSubtexto]){
 			indiceSubtexto++;
 		}
 		indiceTexto++;
 	}
-	if(indiceSubtexto == strlen(subTexto)-1){
+	if(indiceSubtexto == strlen(subTexto)){
 		return true;
 	}
 	else{
@@ -56,7 +56,6 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 	}
 
 }
-
 // Implementación de busqueda secuencial en cadena de caracteres.
 int BuscarCaracter(char texto[], char caracter){
 
@@ -74,18 +73,17 @@ int BuscarTexto(char texto[],char textoBusqueda[]){
 
 	unsigned int indiceTexto = 0, indiceTextoBusqueda = 0;
 
-	while(indiceTexto < strlen(texto) && indiceTextoBusqueda < strlen(textoBusqueda)){
+	while(indiceTexto < strlen(texto) && indiceTextoBusqueda <= strlen(textoBusqueda)){
 		if(texto[indiceTexto] == textoBusqueda[indiceTextoBusqueda]){
 			indiceTextoBusqueda++;
 		}
 		indiceTexto++;
 	}
-
-	if(indiceTextoBusqueda == strlen(textoBusqueda)-1){
-		return indiceTexto-strlen(textoBusqueda);
+	if(indiceTextoBusqueda == strlen(textoBusqueda)){
+		return true;
 	}
 	else{
-		return -1;
+		return false;
 	}
 
 }

@@ -29,7 +29,7 @@ int BuscarTexto(char texto[],char textoBusqueda[]);
 int main() {
 
 	char texto[] = "stucabatrk";
-	char subTexto[] = "caa";
+	char subTexto[] = "caba";
 	cout << BuscarTexto(texto,subTexto);
 
 	return 0;
@@ -48,7 +48,7 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 		}
 		indiceTexto++;
 	}
-	if(indiceSubtexto == strlen(subTexto)-1){
+	if(indiceSubtexto == strlen(subTexto)){
 		return true;
 	}
 	else{
@@ -79,9 +79,12 @@ int BuscarTexto(char texto[],char textoBusqueda[]){
 			indiceTextoBusqueda++;
 		}
 		indiceTexto++;
+		cout << "indiceTextoBusqueda: " << indiceTextoBusqueda
+				<< "Valor: " << textoBusqueda[indiceTextoBusqueda]
+				<< endl;
 	}
 
-	if(indiceTextoBusqueda == strlen(textoBusqueda)-1){
+	if(indiceTextoBusqueda == strlen(textoBusqueda)){
 		return indiceTexto-strlen(textoBusqueda);
 	}
 	else{

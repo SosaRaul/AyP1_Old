@@ -48,7 +48,7 @@ bool ContieneSubTexto(char texto[] , char subTexto[]){
 		}
 		indiceTexto++;
 	}
-	if(indiceSubtexto == strlen(subTexto)-1){
+	if(indiceSubtexto == strlen(subTexto)){
 		return true;
 	}
 	else{
