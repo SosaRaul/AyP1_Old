@@ -19,16 +19,15 @@ bool ContieneSubTexto(char texto[] , char subTexto[]);
 // Post: Reemplaza apariciones de @texto en @textoBusqueda por @textoReemplazo
 void Reemplazar(char texto[], char textoBusqueda[],char textoReemplazo[]);
 
-
 // Pre -
 // Post : Retorna true si el @caracter está en @texto , de lo contrario false.
 int BuscarCaracter(char texto[], char caracter);
 
 int main() {
 
-	char texto[] = " ";
-	char subTexto[] = "";
-	cout << ContieneSubTexto(texto,subTexto);
+	char nombre[] =  {'s','s','a'};
+	char letra = 'q';
+	cout << BuscarCaracter(nombre,letra);
 
 	return 0;
 }
@@ -37,21 +36,6 @@ void Reemplazar(char texto[], char textoBusqueda[],char textoReemplazo[]){
 
 }
 bool ContieneSubTexto(char texto[] , char subTexto[]){
-
-	unsigned int indiceTexto = 0, indiceSubtexto = 0;
-
-	while(indiceTexto < strlen(texto) && indiceSubtexto <= strlen(subTexto)){
-		if(texto[indiceTexto] == subTexto[indiceSubtexto]){
-			indiceSubtexto++;
-		}
-		indiceTexto++;
-	}
-	if(indiceSubtexto == strlen(subTexto)){
-		return true;
-	}
-	else{
-		return false;
-	}
 
 }
 // Implementación de busqueda secuencial en cadena de caracteres.

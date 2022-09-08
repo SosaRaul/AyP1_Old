@@ -1,19 +1,6 @@
-19:43:38 **** Incremental Build of configuration Debug for project Clase03TN ****
+05:57:41 **** Incremental Build of configuration Debug for project Clase03TN ****
 make all 
-Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
-../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
-../src/EjercicioSearchAndReplaceCharacters.cpp:40:1: warning: no return statement in function returning non-void [-Wreturn-type]
-   40 | }
-      | ^
-Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
- 
-Building target: Clase03TN
-Invoking: GCC C++ Linker
-g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
-Finished building target: Clase03TN
- 
+make: Nothing to be done for 'all'.
 
-19:43:38 Build Finished. 0 errors, 1 warnings. (took 313ms)
+05:57:42 Build Finished. 0 errors, 0 warnings. (took 114ms)
 

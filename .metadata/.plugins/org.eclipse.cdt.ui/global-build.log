@@ -890,3 +890,6 @@ Invoking: GCC C++ Linker
 g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
 Finished building target: Clase03TN
  
+05:57:41 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
