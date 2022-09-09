@@ -1737,3 +1737,975 @@ Finished building target: Clase03TN
 18:09:24 **** Incremental Build of configuration Debug for project Clase03TN ****
 make all 
 make: Nothing to be done for 'all'.
+02:28:01 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘void Reemplazar(char*, char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:49:73: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   49 |                 for(int indiceTextoReemplazo = 0 ; indiceTextoReemplazo < strlen(textoReemplazo);indiceTextoReemplazo++){
+      |                                                    ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:28:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:28:53 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:30:06 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:30:08 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:32:28 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "xxx";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:32:32 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:36:33 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "xxx";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:36:34 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:36:57 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "xxx";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:37:41 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:14: warning: unused variable ‘texto’ [-Wunused-variable]
+   31 |         char texto[] = "stucabatrk";
+      |              ^~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:32:14: warning: unused variable ‘textoBusqueda’ [-Wunused-variable]
+   32 |         char textoBusqueda[] = "caba";
+      |              ^~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "xxx";
+      |              ^~~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘bool ContieneSubTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:72:9: error: ‘c’ was not declared in this scope
+   72 |         c
+      |         ^
+../src/EjercicioSearchAndReplaceCharacters.cpp:76:9: error: ‘else’ without a previous ‘if’
+   76 |         else{
+      |         ^~~~
+make: *** [src/subdir.mk:20: src/EjercicioSearchAndReplaceCharacters.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:38:10 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:31:14: warning: unused variable ‘texto’ [-Wunused-variable]
+   31 |         char texto[] = "stucabatrk";
+      |              ^~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:32:14: warning: unused variable ‘textoBusqueda’ [-Wunused-variable]
+   32 |         char textoBusqueda[] = "caba";
+      |              ^~~~~~~~~~~~~
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "xxx";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:38:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:38:26 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:39:36 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:39:38 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:40:29 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:40:30 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:41:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:41:08 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:41:45 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:41:48 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:42:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:42:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:44:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:44:25 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:40 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+02:49:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:54 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:49:55 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+02:50:30 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:02:08 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:02:11 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:03:41 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:03:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:03:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:15:32 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:15:33 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:16:11 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:19:43 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:19:45 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:21:19 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+03:21:22 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:32:16 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+03:32:19 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:00:52 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int BuscarTexto(char*, char*)’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:114:34: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  114 |         if(contadorCoincidencias == strlen(textoBusqueda)){
+      |            ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:01:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:01:22 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+04:01:25 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+04:01:26 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+04:02:00 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:02:02 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+04:04:49 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:04:51 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+04:05:00 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+04:05:01 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:14:45 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:15:14 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:15:59 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:16:10 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:16:17 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:16:45 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:16:59 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:17:14 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:19:55 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:20:26 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:20:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:22:10 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:22:12 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:22:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:22:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:23:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "rau";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:24:12 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:24:33 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:26:36 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:32:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:33:57 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:36:21 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:36:23 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:37:50 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:38:06 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:38:43 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:45:38 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:45:54 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:46:07 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:48:35 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:49:03 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:50:00 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:50:30 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:54:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+05:54:44 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:54:47 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+make: Nothing to be done for 'all'.
+05:55:20 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:03:15 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:05:18 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "raul";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:05:31 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "raul";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:05:46 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+../src/EjercicioSearchAndReplaceCharacters.cpp: In function ‘int main()’:
+../src/EjercicioSearchAndReplaceCharacters.cpp:33:14: warning: unused variable ‘textoReemplazo’ [-Wunused-variable]
+   33 |         char textoReemplazo[] = "raul";
+      |              ^~~~~~~~~~~~~~
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:22:05 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:22:24 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
+06:23:32 **** Incremental Build of configuration Debug for project Clase03TN ****
+make all 
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 

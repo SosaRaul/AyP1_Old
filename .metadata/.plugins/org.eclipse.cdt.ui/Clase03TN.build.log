@@ -1,6 +1,15 @@
-18:09:24 **** Incremental Build of configuration Debug for project Clase03TN ****
+06:23:32 **** Incremental Build of configuration Debug for project Clase03TN ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/EjercicioSearchAndReplaceCharacters.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/EjercicioSearchAndReplaceCharacters.d" -MT"src/EjercicioSearchAndReplaceCharacters.o" -o "src/EjercicioSearchAndReplaceCharacters.o" "../src/EjercicioSearchAndReplaceCharacters.cpp"
+Finished building: ../src/EjercicioSearchAndReplaceCharacters.cpp
+ 
+Building target: Clase03TN
+Invoking: GCC C++ Linker
+g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
+Finished building target: Clase03TN
+ 
 
-18:09:24 Build Finished. 0 errors, 0 warnings. (took 113ms)
+06:23:33 Build Finished. 0 errors, 0 warnings. (took 314ms)
 
