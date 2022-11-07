@@ -2709,3 +2709,326 @@ Invoking: GCC C++ Linker
 g++  -o "Clase03TN" ./src/EjercicioSearchAndReplaceCharacters.o   
 Finished building target: Clase03TN
  
+16:36:53 **** Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+Finished building: ../src/Matrices.cpp
+ 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:58: Matrices] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:37:06 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:58: Matrices] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:37:34 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:58: Matrices] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:37:39 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘int main()’:
+../src/Matrices.cpp:9:15: warning: unused variable ‘matrix’ [-Wunused-variable]
+    9 |         int **matrix = new int*[3];
+      |               ^~~~~~
+Finished building: ../src/Matrices.cpp
+ 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+Finished building target: Matrices
+ 
+16:41:24 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+Finished building: ../src/Matrices.cpp
+ 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+Finished building target: Matrices
+ 
+16:47:56 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘void PrintMatrix(int**)’:
+../src/Matrices.cpp:28:31: error: ‘rows’ was not declared in this scope; did you mean ‘row’?
+   28 |         for(int row = 0;row < rows ; row++){
+      |                               ^~~~
+      |                               row
+../src/Matrices.cpp:29:45: error: ‘columns’ was not declared in this scope; did you mean ‘column’?
+   29 |                 for(int column = 0;column < columns;column++){
+      |                                             ^~~~~~~
+      |                                             column
+make: *** [src/subdir.mk:20: src/Matrices.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:49:09 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘void PrintMatrix(int**)’:
+../src/Matrices.cpp:28:31: error: ‘rows’ was not declared in this scope; did you mean ‘row’?
+   28 |         for(int row = 0;row < rows ; row++){
+      |                               ^~~~
+      |                               row
+../src/Matrices.cpp:29:45: error: ‘columns’ was not declared in this scope; did you mean ‘column’?
+   29 |                 for(int column = 0;column < columns;column++){
+      |                                             ^~~~~~~
+      |                                             column
+make: *** [src/subdir.mk:20: src/Matrices.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:49:30 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘void PrintMatrix(int**)’:
+../src/Matrices.cpp:28:31: error: ‘rows’ was not declared in this scope; did you mean ‘row’?
+   28 |         for(int row = 0;row < rows ; row++){
+      |                               ^~~~
+      |                               row
+../src/Matrices.cpp:29:45: error: ‘columns’ was not declared in this scope; did you mean ‘column’?
+   29 |                 for(int column = 0;column < columns;column++){
+      |                                             ^~~~~~~
+      |                                             column
+make: *** [src/subdir.mk:20: src/Matrices.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:50:02 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘void PrintMatrix(int**)’:
+../src/Matrices.cpp:28:31: error: ‘rows’ was not declared in this scope; did you mean ‘row’?
+   28 |         for(int row = 0;row < rows ; row++){
+      |                               ^~~~
+      |                               row
+../src/Matrices.cpp:29:45: error: ‘columns’ was not declared in this scope; did you mean ‘column’?
+   29 |                 for(int column = 0;column < columns;column++){
+      |                                             ^~~~~~~
+      |                                             column
+make: *** [src/subdir.mk:20: src/Matrices.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:50:27 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+../src/Matrices.cpp: In function ‘void PrintMatrix(int**)’:
+../src/Matrices.cpp:28:31: error: ‘rows’ was not declared in this scope; did you mean ‘row’?
+   28 |         for(int row = 0;row < rows ; row++){
+      |                               ^~~~
+      |                               row
+../src/Matrices.cpp:29:45: error: ‘columns’ was not declared in this scope; did you mean ‘column’?
+   29 |                 for(int column = 0;column < columns;column++){
+      |                                             ^~~~~~~
+      |                                             column
+make: *** [src/subdir.mk:20: src/Matrices.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:50:46 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+Building file: ../src/Matrices.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Matrices.d" -MT"src/Matrices.o" -o "src/Matrices.o" "../src/Matrices.cpp"
+Finished building: ../src/Matrices.cpp
+ 
+Building target: Matrices
+Invoking: Cross G++ Linker
+g++  -o "Matrices" ./src/Matrices.o   
+Finished building target: Matrices
+ 
+17:20:44 **** Incremental Build of configuration Debug for project Matrices ****
+make all 
+make: Nothing to be done for 'all'.
+05:19:30 **** Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/Clase13.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase13.d" -MT"src/Clase13.o" -o "src/Clase13.o" "../src/Clase13.cpp"
+Finished building: ../src/Clase13.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+../main.cpp:2:10: fatal error: Clase13.h: No such file or directory
+    2 | #include "Clase13.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:20:11 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/Clase13.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase13.d" -MT"src/Clase13.o" -o "src/Clase13.o" "../src/Clase13.cpp"
+Finished building: ../src/Clase13.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:7:14: error: ‘funcion’ was not declared in this scope; did you mean ‘union’?
+    7 |         int (funcion*)(int,int);
+      |              ^~~~~~~
+      |              union
+../src/main.cpp:7:9: error: expected primary-expression before ‘int’
+    7 |         int (funcion*)(int,int);
+      |         ^~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:20:42 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:7:15: warning: unused variable ‘funcion’ [-Wunused-variable]
+    7 |         int (*funcion)(int,int);
+      |               ^~~~~~~
+Finished building: ../src/main.cpp
+ 
+Building target: Clase13TN
+Invoking: Cross G++ Linker
+g++  -o "Clase13TN" ./src/Clase13.o ./src/main.o   
+Finished building target: Clase13TN
+ 
+05:22:19 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:9:1: error: expected primary-expression before ‘|’ token
+    9 | |       funcion = Suma;
+      | ^
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+05:23:48 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Clase13TN
+Invoking: Cross G++ Linker
+g++  -o "Clase13TN" ./src/Clase13.o ./src/main.o   
+Finished building target: Clase13TN
+ 
+05:23:53 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+make: Nothing to be done for 'all'.
+07:09:36 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:10:41: error: expected initializer before ‘punteroFuncion’
+   10 |         typedef int (*funcion)(int,int) punteroFuncion;
+      |                                         ^~~~~~~~~~~~~~
+../src/main.cpp:12:10: error: ‘punteroFuncion’ was not declared in this scope; did you mean ‘PunterosAFuncion’?
+   12 |         *punteroFuncion = Suma;
+      |          ^~~~~~~~~~~~~~
+      |          PunterosAFuncion
+../src/main.cpp:14:17: error: ‘funcion’ was not declared in this scope; did you mean ‘union’?
+   14 |         cout << funcion(10,20);
+      |                 ^~~~~~~
+      |                 union
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:10:26 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:12:17: error: expected unqualified-id before ‘=’ token
+   12 |         funcion = Suma;
+      |                 ^
+../src/main.cpp:14:30: error: expression list treated as compound expression in functional cast [-fpermissive]
+   14 |         cout << funcion(10,20);
+      |                              ^
+../src/main.cpp:14:25: warning: left operand of comma operator has no effect [-Wunused-value]
+   14 |         cout << funcion(10,20);
+      |                         ^~
+../src/main.cpp:14:17: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   14 |         cout << funcion(10,20);
+      |                 ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:14:12 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main()’:
+../src/main.cpp:10:41: error: expected initializer before ‘funcion’
+   10 |         typedef int (*funcion)(int,int) funcion;
+      |                                         ^~~~~~~
+../src/main.cpp:12:9: error: ‘funcion’ was not declared in this scope; did you mean ‘union’?
+   12 |         funcion miFuncion = Suma;
+      |         ^~~~~~~
+      |         union
+../src/main.cpp:14:17: error: ‘miFuncion’ was not declared in this scope
+   14 |         cout << miFuncion(10,20);
+      |                 ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:17:16 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Clase13TN
+Invoking: Cross G++ Linker
+g++  -o "Clase13TN" ./src/Clase13.o ./src/main.o   
+Finished building target: Clase13TN
+ 
+07:17:21 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+make: Nothing to be done for 'all'.
+07:18:19 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Clase13TN
+Invoking: Cross G++ Linker
+g++  -o "Clase13TN" ./src/Clase13.o ./src/main.o   
+Finished building target: Clase13TN
+ 
+07:18:21 **** Incremental Build of configuration Debug for project Clase13TN ****
+make all 
+make: Nothing to be done for 'all'.
