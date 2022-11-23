@@ -1,4 +1,4 @@
-#include "Clase13.h"
+#include "Clase13TN.h"
 
 int PunterosAFuncion::Suma(int a ,int b){
 	return a+b;

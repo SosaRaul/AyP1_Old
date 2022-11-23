@@ -1,5 +1,6 @@
 #include <iostream>
-#include "Clase13.h"
+
+#include "Clase13TN.h"
 using namespace std;
 using namespace PunterosAFuncion;
 

@@ -6,7 +6,7 @@
 Análisis de algoritmos (1era parte)
 
 ***
-##### Punteros a función
+#### Punteros a función
 El Objetivo de un puntero a función es convertir las funciones en variables.
 
 ```cpp
@@ -31,13 +31,13 @@ POO ->pilares fundamentales :
 - Encapsulamiento (ocultamiento de la información) . Bajo acoplamiento y alta cohesión.
 - Herencia
 
-##### Código con omportamiento polimórfico.
+#### Código con omportamiento polimórfico.
 Una bloque tiene comportamiento polimórfico cuando su comportamiento cambia según la instancia (en este caso la instancia es la función pasada por parámetro).La postcondición de la función cambia seǵun la instancia que se pase de otra función.
 
-##### Código clausurado ante cambios.
+#### Código clausurado ante cambios.
 Código que no se ve afectado por cambios , no será necesario modificarlo al pasarle distintas instancias como parámetros.**El objetivo del comportamiento polimórfico es generar código clausurado ante cambios**.
 
-##### Función de alto orden
+#### Función de alto orden
 Toda función que recibe como parámetro otra función se llama **función de alto órden** , y en general a ese estilo de programación se conoce como *programación de alto órden*.
 
 Todos estos conceptos se ven en la función siguiente.
@@ -60,3 +60,28 @@ void UndavListaTanques::Map(ListaTanques* Lista,TipoFuncionMap funcionAplicacion
 *Nota :* cuando queremos devolver un puntero pero no sabemos a que tipo de dato devolvemos puntero a void (*void)
 
 [Quedó en minuto](https://youtu.be/UoUgeMslNgc?t=3643)
+
+1:15 segunda parte de clase.
+
+#### Análisis de algoritmos.
+
+El orden de crecimiento de cualquier algoritmos cae en algunos de estos casos, ordenados desde el que crece más lento al más rápido.
+- Constante O(1)
+- Logarítmico O(log N)
+- Lineal O(N)
+- Linealrítmico O(N log N)
+- Cuadrático O(N²)
+- Cúbica O(N³)
+- Exponencial. (2^N)
+- Factorial (N!)
+
+Para las mediciones en tiempo de ejecución debemos tomar elementos independientes: 
+- El algoritmo
+- Los datos de entrada.
+
+Los elementos dependientes son el S.O , ram , procesador ,etc.
+
+
+**Programación dinámica** : cuando usamos un *memorizador o buffer* o *cache* para guardar el resultado de una operación que necesitaríamos de otra manera hacerla repetidas veces.
+
+Para solucionar problemas de performance tenemos que encontrar el cuello de botella con una herramienta de profiling para ver donde está y descubrir que orden de crecimiento tiene. 
